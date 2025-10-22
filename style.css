@@ -1,0 +1,28 @@
+/* עיצוב כללי לדף */
+body {
+    font-family: Arial, sans-serif; /* גופן קריא */
+    background-color: #f0f0f0; /* צבע רקע אפור בהיר לכל הדף */
+    color: #333; /* צבע הטקסט הכללי יהיה אפור כהה */
+    margin: 0; /* מסיר את השוליים הלבנים שמופיעים בדרך כלל */
+    padding: 20px; /* מוסיף קצת מרווח פנימי לדף */
+}
+
+/* עיצוב לכותרת הראשית */
+header {
+    background-color: #4CAF50; /* רקע ירוק */
+    color: white; /* טקסט לבן */
+    padding: 10px 0; /* ריווח פנימי עליון ותחתון */
+    text-align: center; /* ממקם את הטקסט במרכז */
+    margin-bottom: 20px; /* ריווח תחתון מהתוכן הבא */
+}
+
+h1 {
+    margin: 0; /* מסיר שוליים מיותרים מהכותרת */
+}
+
+/* עיצוב לאזור התוכן המרכזי */
+main {
+    background-color: white; /* רקע לבן לאזור התוכן */
+    padding: 20px; /* ריווח פנימי */
+    border-radius: 8px; /* פינות מעוגלות */
+    box-shadow: 0 2px 4
